@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(font/MonumentExtended-Regular.otf) format("OpenType");
+}
+.header {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url('photo/header.jpg');
+    height: 790px;
+    background-repeat: no-repeat;
+
+}
+.header h1,p{
+    position: relative;
+    color: white;
+}
+.header h1 {
+    font-size: 120px;
+    font-family: 'MyWebFont';
+    margin-top: 370px;
+}
+.header p {
+    font-size: 19px;
+    font-family: 'MyWebFont';
+}
+.about h2 {
+    font-family: 'MyWebFont';
+    color: white;
+    font-size: 50px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.about {
+    height: 100%;
+}
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+span{
+    color: rgb(255, 28, 58);
+}
+.jepang{
+    top: 150%;
+}
+.kanji p{
+     margin-left: 87%;
+     stroke: rgb(255, 28, 58);
+     color: black;
+     font-size: 290px;
+     -webkit-text-stroke: 3px rgb(255, 28, 58);
+     font-weight: normal;
+     margin-top: -180px;
+     position: absolute;
+}
+.container .destination{
+    height: 100%;
+    width: 100%;
+    font-family: 'MyWebFont';
+    color: white;
+    margin-top: 30%;
+}
+.destination h1{
+    text-align: center;
+}
+.ImDes img{
+    border-radius: 20px;
+    filter: brightness(60%);
+    display: block;
+    transition: ease-in .6s;
+}
+.ImDes p {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 40px;
+    transition: all .6s;
+    opacity: 0;
+}
+.food p{
+    left: 30%;
+}
+.ImDes a:hover + p{
+    opacity: 100%;
+}
+.ImDes img:hover{
+    filter: brightness(20%);
+}
+.conim{
+    margin-top: 20px;
+}
+.nightlife{
+    margin-top: 195px;
+}
+.nightlife p {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 50px;
+}
+.rinig{
+    margin-left: 60px;
+}
+.lefnig img{
+    filter: brightness(80%);
+}
+.bigcity{
+    margin-top: 195px;
+}
+.tokyo h1{
+    margin-top:20px;
+}
+.conji h1{
+    margin-top: 400px;
+}
+.comvijep{
+    margin-top: 400px;
+}
+.convi{
+    width: 100%;
+    position: relative;
+}
+.convi h1{
+    font-size: 290px;
+    color: rgb(255, 28, 58);
+    display: block;
+}
+.convi p{
+    position: absolute;
+    top: 120px;
+    font-size: 54px;
+    left: 20%;
+}
+.confotjep{
+    margin-top: 100px;
+    position: relative;
+    display: block;
+}
+.fotjep{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 11px;
+    bottom: 0;
+}
